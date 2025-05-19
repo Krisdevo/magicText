@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.relative{
+    position: relative;
+    display: flex;
+    gap: 10px;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.cursor{
+    width: 3px;
+    height: 60px;
+    background-color: black;
+    animation: curseur 1s ease infinite;
+}
+
+@keyframes curseur {
+    0%{opacity:0}
+    50%{opacity:1}
+    100%{opacity: 0;}
+}
